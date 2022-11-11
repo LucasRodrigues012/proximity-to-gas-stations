@@ -9,17 +9,31 @@ body {
     background: -webkit-linear-gradient(top right, #01CDFF, #010183);
     background: -moz-linear-gradient(top right, #01CDFF, #010183);
     background: linear-gradient(to bottom left, #01CDFF, #010183);
-    height: 100vh; 
+    height: 1000px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.secI {
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
     text-align: center;
+    margin-top: 40px;
+    background-color: #01CDFF;
 }
 
-.sessI {
-    border: solid 2px;
-    padding: 20px;
+.secII {
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+    margin-top: 15px;
+    text-align: center;
+    margin-top: 70px;
+    background-color: #01CDFF;
 }
 
-.sessII {
-    border: solid 2px;
-    padding: 20px;
-    margin: 5px;
-}
+

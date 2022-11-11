@@ -12,31 +12,28 @@
 
 <body>
     <div class="secI">
-        <section class="sessI">
-            <h1>New Gas Stations</h1>
-            Stations: <input type="text" id="posto">
-            <br>
-            Distance : <input type="number" id="distancia"> Km
-            <br>
-            <br>
-            <button type="submit" onclick="adicionar()">Adicionar</button>
-            <br>
-            <br>
-        </section>
-        <section class="sessII">
-            <h2>More distant stations within the fuel limit</h2>
-            Average consumption: <input type="number" id="txconsmedio"> Km/L
-            <br>
-            <br>
-            Available fuel: <input type="number" id="txcombdisp"> Km/L
-            <br>
-            <br>
-            <button class="botao" type="submit" onclick="calcular()">Calcular</button>
-        </section>
-
-
+        <h1>New Gas Stations</h1>
+        Stations: <input type="text" id="posto">
+        <br>
+        <br>
+        Distance : <input type="number" id="distancia"> Km
+        <br>
+        <br>
+        <button type="submit" onclick="adicionar()">Adicionar</button>
+        <br>
+        <br>
     </div>
     <div class="secII">
+        <h2>More distant stations within the fuel limit</h2>
+        Average consumption: <input type="number" id="txconsmedio"> Km/L
+        <br>
+        <br>
+        Available fuel: <input type="number" id="txcombdisp"> Km/L
+        <br>
+        <br>
+        <button class="botao" type="submit" onclick="calcular()">Calcular</button>
+    </div>
+    <div class="secIII">
         <span id="resultado"></span>
 
     </div>

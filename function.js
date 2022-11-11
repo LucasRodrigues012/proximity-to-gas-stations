@@ -52,5 +52,6 @@ function calcular() {
         return -1
     }
       document.getElementById("resultado").innerText = "Resultado: "+result.nome+"   "+result.distancia
-
+      
+      console.log(result)
 }
